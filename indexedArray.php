@@ -16,10 +16,20 @@
     {
         echo $month[$i]. "\n";
     }
+    ?>
 
+    <?php
     foreach($month as $value)
         {
         echo $value . "\n";
+        }
+    ?>
+    
+    <?php
+    while($i <= 11)
+        {
+            echo $months[$i] . "\n";
+            $i++;
         }
     ?>
 </body>
