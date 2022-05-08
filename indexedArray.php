@@ -14,7 +14,7 @@
     $i = 0;
     for($i = 0; $i <= 11; $i++)
     {
-        echo $months[$i] . "\n";
+        echo $month[$i]. "\n";
     }
     ?>
 </body>
