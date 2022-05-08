@@ -10,6 +10,12 @@
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
     'October', 'November', 'December');
+
+    $i = 0;
+    for($i = 0; $i <= 11; $i++)
+    {
+        echo $months[$i] . "\n";
+    }
     ?>
 </body>
 </html>
