@@ -24,13 +24,5 @@
         echo $value . "\n";
         }
     ?>
-    
-    <?php
-    while($i <= 11)
-        {
-            echo $months[$i] . "\n";
-            $i++;
-        }
-    ?>
 </body>
 </html>
