@@ -19,14 +19,14 @@
     ?>
 
     <?php
-    function assign_key() { 
-        return 'd'; 
+    foreach ($month as $key => $val) { 
+        echo "The value of key $key is: $val<br>"; 
         } 
-        $month['a'] = 1; 
-        $month['b'] = 2; 
-        $month['c'] = 3; 
-        $month[assign_key()] = 4; /* Assign the key 'd' */
-        $month['b'] = $month['a'] + $month['c']; /* $month['b'] now has 4 *
+        /* Only retrieves the value for the current element and 
+        ignores the
+        key */ 
+        foreach ($month as $val) { 
+        echo "Value: $val<BR>"; }
     ?>
 </body>
 </html>
