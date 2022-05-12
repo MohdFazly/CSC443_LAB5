@@ -10,7 +10,7 @@
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
     'October', 'November', 'December');
-    $month.sort();
+    
     $i = 0;
     for($i = 0; $i <= 11; $i++)
     {
@@ -27,6 +27,9 @@
         key */ 
         foreach ($month as $val) { 
         echo "Value: $val<BR>"; }
+    ?>
+    <?php
+    $month.sort();
     ?>
 </body>
 </html>
