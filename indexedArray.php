@@ -29,7 +29,8 @@
         echo "Value: $val<BR>"; }
     ?>
     <?php
-    $month.sort();
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.sort();
     ?>
 </body>
 </html>
