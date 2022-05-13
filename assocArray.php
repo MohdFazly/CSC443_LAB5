@@ -15,6 +15,7 @@
     'September' => 30, 'October' => 31,
     'November' => 30, 'December' => 31);
     echo $monthDays['January'];
+    echo $monthDays['February'];
     
     $monthDay['January'] = 31; 
     $monthDay['February'] = 28;
@@ -23,11 +24,5 @@
     $monthDays = array('January','February','March','April');
     ?>
     
-    <?php
-    $monthDay['January'] = 31; 
-    $monthDay['February'] = 28;
-    $monthDay['March'] = 31;
-    $monthDay['April'] = 30;
-    ?>
 </body>
 </html>
