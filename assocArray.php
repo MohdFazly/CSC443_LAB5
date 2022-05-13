@@ -17,5 +17,11 @@
     echo $monthDays['January'];
     ?>
     
+    <?php
+    $monthDay['January'] = 31; 
+    $monthDay['February'] = 28;
+    $monthDay['March'] = 31;
+    $monthDay['April'] = 30;
+    ?>
 </body>
 </html>
