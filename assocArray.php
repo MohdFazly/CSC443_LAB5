@@ -20,6 +20,7 @@
     $monthDay['February'] = 28;
     $monthDay['March'] = 31;
     $monthDay['April'] = 30;
+    $monthDays = array('January','February','March','April');
     ?>
     
     <?php
