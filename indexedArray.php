@@ -28,9 +28,5 @@
         foreach ($month as $val) { 
         echo "Value: $val<BR>"; }
     ?>
-    <?php
-    const fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruits.sort();
-    ?>
 </body>
 </html>
