@@ -22,6 +22,7 @@
     sort($month);
     ?>
     <?php
+    echo "<br>";
     foreach ($month as $key => $val) { 
         echo "The value of key $key is: $val<br>"; 
         } 
