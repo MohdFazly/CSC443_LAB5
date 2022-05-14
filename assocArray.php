@@ -14,7 +14,8 @@
     'July' => 31, 'August' => 31,
     'September' => 30, 'October' => 31,
     'November' => 30, 'December' => 31);
-    echo $monthDays['January']"<br>";
+    echo $monthDays['January'];
+    echo "<br>";
     echo $monthDays['February']"<br>";
     echo $monthDays['March']"<br>";
     echo $monthDays['April']"<br>";
