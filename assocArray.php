@@ -16,17 +16,28 @@
     'November' => 30, 'December' => 31);
     echo $monthDays['January'];
     echo "<br>";
-    echo $monthDays['February']"<br>";
-    echo $monthDays['March']"<br>";
-    echo $monthDays['April']"<br>";
-    echo $monthDays['May']"<br>";
-    echo $monthDays['June']"<br>";
-    echo $monthDays['July']"<br>";
-    echo $monthDays['August']"<br>";
-    echo $monthDays['September']"<br>";
-    echo $monthDays['October']"<br>";
-    echo $monthDays['November']"<br>";
-    echo $monthDays['December']"<br>";
+    echo $monthDays['February'];
+    echo "<br>";
+    echo $monthDays['March'];
+    echo "<br>";
+    echo $monthDays['April'];
+    echo "<br>";
+    echo $monthDays['May'];
+    echo "<br>";
+    echo $monthDays['June'];
+    echo "<br>";
+    echo $monthDays['July'];
+    echo "<br>";
+    echo $monthDays['August'];
+    echo "<br>";
+    echo $monthDays['September'];
+    echo "<br>";
+    echo $monthDays['October'];
+    echo "<br>";
+    echo $monthDays['November'];
+    echo "<br>";
+    echo $monthDays['December'];
+    echo "<br>";
     
     ?>
 
