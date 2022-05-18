@@ -19,12 +19,19 @@
     ?>
 
     <?php
-    sort($month);
+    sort($month);//using for alphabetical order
+    $arrlength = count($month); //using for loop
+        for ($x=0; $x < $arrlength; $x++) {
+            echo $month[$x];
+            echo "<br>";
+        }
     ?>
+
     <?php
     echo "<br>";
     echo "<br>";
-    foreach ($month as $key => $val) { 
+    foreach ($month as $key => $val) //using foreachloop
+        { 
         echo "The value of key $key is: $val<br>"; 
         } 
         /* Only retrieves the value for the current element and 

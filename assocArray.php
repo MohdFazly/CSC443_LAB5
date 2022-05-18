@@ -44,7 +44,7 @@
     function assign_key() { 
     return 'd'; 
     } 
-    $month['a'] = 1; 
+    $month['January'] = 1; 
     $month['b'] = 2; 
     $month['c'] = 3; 
     $month[assign_key()] = 4; /* Assign the key 'd' */
