@@ -19,6 +19,8 @@
     ?>
 
     <?php
+    echo "<br>";
+    echo "<br>";
     sort($month);//using for alphabetical order
     $arrlength = count($month); //using for loop
         for ($x=0; $x < $arrlength; $x++) {
