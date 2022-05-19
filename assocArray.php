@@ -42,7 +42,7 @@
     ?>
     
     <?php
-    $monthDays = range(0,5);
+    $monthDays = range(0,30);
     print_r ($monthDays); 
     ?>
     
