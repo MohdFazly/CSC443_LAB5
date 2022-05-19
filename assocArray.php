@@ -40,6 +40,7 @@
     echo "<br>";
     
     ?>
+    
     <?php
     function assign_key() { 
     return 'd'; 
@@ -48,8 +49,8 @@
     $month['b'] = 2; 
     $month['c'] = 3; 
     $month[assign_key()] = 4; /* Assign the key 'd' */
-    $month['b'] = $month['a'] + $month['c']; /* $month['b'] now has 4 *
-    -------------
+    $month['b'] = $month['a'] + $month['c'];
+   
     ?>
 
 </body>
