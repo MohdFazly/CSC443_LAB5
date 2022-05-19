@@ -42,8 +42,8 @@
     ?>
     
     <?php
-    $number = range(5);
-    print_r ($number); 
+    $monthDays = range(0,5);
+    print_r ($monthDays); 
     ?>
     
     <?php
