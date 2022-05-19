@@ -14,31 +14,12 @@
     'July' => 31, 'August' => 31,
     'September' => 30, 'October' => 31,
     'November' => 30, 'December' => 31);
-    echo $monthDays['January'];
-    echo "<br>";
-    echo $monthDays['February'];
-    echo "<br>";
-    echo $monthDays['March'];
-    echo "<br>";
-    echo $monthDays['April'];
-    echo "<br>";
-    echo $monthDays['May'];
-    echo "<br>";
-    echo $monthDays['June'];
-    echo "<br>";
-    echo $monthDays['July'];
-    echo "<br>";
-    echo $monthDays['August'];
-    echo "<br>";
-    echo $monthDays['September'];
-    echo "<br>";
-    echo $monthDays['October'];
-    echo "<br>";
-    echo $monthDays['November'];
-    echo "<br>";
-    echo $monthDays['December'];
-    echo "<br>";
     
+    foreach ($monthDays as $key => $day)
+    {
+        echo "$key $day <br>";
+    }
+        echo "<br>";
     ?>
     
     <?php
