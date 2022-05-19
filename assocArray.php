@@ -48,7 +48,7 @@
     $month['January'] = 1; 
     $month['b'] = 2; 
     $month['c'] = 3; 
-    $month[assign_key()] = 4; /* Assign the key 'd' */
+    $month[assign_key()] = 4;
     $month['b'] = $month['a'] + $month['c'];
    
     ?>
