@@ -13,5 +13,13 @@
     'Sploctember' => 31, 'Splictember' => 31, 'Splanet' => 30, 'TheRest' => 22);
     ?>
 
+    <?php
+    echo "The number of days in the shortest month:".min($monthDays);
+    echo "<br>";
+    echo "Total number of days in a year:".array_sum($monthDays);
+    echo "<br>";
+    echo "The name of the shortest month:".array_search(min($monthDays),$monthDays);
+    ?>
+
 </body>
 </html>
