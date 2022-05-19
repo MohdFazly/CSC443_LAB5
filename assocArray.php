@@ -42,6 +42,11 @@
     ?>
     
     <?php
+    $number = range(0,5);
+    print_r ($number); 
+    ?>
+    
+    <?php
     function assign_key() { 
     return 'd'; 
     } 
@@ -52,6 +57,8 @@
     $month['b'] = $month['a'] + $month['c'];
    
     ?>
+
+
 
 </body>
 </html>
