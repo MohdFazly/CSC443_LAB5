@@ -42,7 +42,7 @@
     ?>
     
     <?php
-    $number = range(0,5);
+    $number = range(5);
     print_r ($number); 
     ?>
     
